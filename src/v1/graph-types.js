@@ -150,7 +150,7 @@ class PathSegment {
    */
   constructor(start, rel, end) {
     this.start = start;
-    this.relationship = rel;
+    this.rel = rel;
     this.end = end;
   }
 }
